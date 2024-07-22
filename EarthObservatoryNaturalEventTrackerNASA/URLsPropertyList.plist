@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>EONET</string>
+	<key>subTitle</key>
+	<string>Earth Observatory Natural Event Tracker</string>
+	<key>buttonImage</key>
+	<string>https://sciencesprings.wordpress.com/wp-content/uploads/2016/02/nasa-earth-observatory.jpg</string>
+	<key>allEvents</key>
+	<string>https://eonet.gsfc.nasa.gov/api/v3/events</string>
+	<key>categoriesList</key>
+	<string>https://eonet.gsfc.nasa.gov/api/v3/categories</string>
+</dict>
+</plist>
