@@ -20,7 +20,7 @@ protocol EventsInteractorProtocol: AnyObject {
 
 final class EventsInteractor: EventsInteractorProtocol {
     
-    let networkService = NetvorkService()
+    let networkService = NetworkService()
     let service = Service()
     
     var eventsPublisher: AnyPublisher<EventsDomainModel?, Never> {

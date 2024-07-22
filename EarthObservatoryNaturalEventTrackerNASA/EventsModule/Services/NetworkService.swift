@@ -7,14 +7,14 @@
 
 import Foundation
 
-protocol NetvorkServiceProtocol: AnyObject {
+protocol NetworkServiceProtocol: AnyObject {
     
     func getCategories(with endPoints: [FilterType: String]?) async throws -> CategoriesDomainModel
     func getEvents(with endPoints: [FilterType: String]?) async throws -> EventsDomainModel
     
 }
 
-final class NetvorkService: NetvorkServiceProtocol {
+final class NetworkService: NetworkServiceProtocol {
     
     let urlStringMaker = UrlStringMaker()
     let decoderService = JSONDecoderService()

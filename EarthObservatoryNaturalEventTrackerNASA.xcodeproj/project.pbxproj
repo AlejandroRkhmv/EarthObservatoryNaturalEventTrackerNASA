@@ -20,7 +20,7 @@
 		21BAF9A82C395B3400EB3D8F /* URLsPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21BAF9A72C395B3400EB3D8F /* URLsPropertyList.plist */; };
 		21BAF9B02C395D1800EB3D8F /* EventsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF9AF2C395D1800EB3D8F /* EventsPresenter.swift */; };
 		21BAF9B22C395D8E00EB3D8F /* EventsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF9B12C395D8E00EB3D8F /* EventsInteractor.swift */; };
-		21BAF9B42C395E7100EB3D8F /* NetvorkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF9B32C395E7100EB3D8F /* NetvorkService.swift */; };
+		21BAF9B42C395E7100EB3D8F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF9B32C395E7100EB3D8F /* NetworkService.swift */; };
 		21BAF9BA2C39604D00EB3D8F /* DomainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF9B92C39604D00EB3D8F /* DomainModels.swift */; };
 		21BAF9BC2C3967F700EB3D8F /* UrlStringMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF9BB2C3967F700EB3D8F /* UrlStringMaker.swift */; };
 		21BAF9BE2C3982E500EB3D8F /* JSONDecoderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BAF9BD2C3982E500EB3D8F /* JSONDecoderService.swift */; };
@@ -61,7 +61,7 @@
 		21BAF9A72C395B3400EB3D8F /* URLsPropertyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = URLsPropertyList.plist; sourceTree = "<group>"; };
 		21BAF9AF2C395D1800EB3D8F /* EventsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsPresenter.swift; sourceTree = "<group>"; };
 		21BAF9B12C395D8E00EB3D8F /* EventsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsInteractor.swift; sourceTree = "<group>"; };
-		21BAF9B32C395E7100EB3D8F /* NetvorkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetvorkService.swift; sourceTree = "<group>"; };
+		21BAF9B32C395E7100EB3D8F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		21BAF9B92C39604D00EB3D8F /* DomainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModels.swift; sourceTree = "<group>"; };
 		21BAF9BB2C3967F700EB3D8F /* UrlStringMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlStringMaker.swift; sourceTree = "<group>"; };
 		21BAF9BD2C3982E500EB3D8F /* JSONDecoderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderService.swift; sourceTree = "<group>"; };
@@ -226,7 +226,7 @@
 		21BAF9AD2C395C1A00EB3D8F /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				21BAF9B32C395E7100EB3D8F /* NetvorkService.swift */,
+				21BAF9B32C395E7100EB3D8F /* NetworkService.swift */,
 				21BAF9BB2C3967F700EB3D8F /* UrlStringMaker.swift */,
 				21BAF9BD2C3982E500EB3D8F /* JSONDecoderService.swift */,
 				21BAF9B82C39602F00EB3D8F /* DomainModel */,
@@ -427,7 +427,7 @@
 				21BAF9DE2C3AE81300EB3D8F /* EventsListView.swift in Sources */,
 				21BAF9C92C39A48400EB3D8F /* Router.swift in Sources */,
 				21BAF9B22C395D8E00EB3D8F /* EventsInteractor.swift in Sources */,
-				21BAF9B42C395E7100EB3D8F /* NetvorkService.swift in Sources */,
+				21BAF9B42C395E7100EB3D8F /* NetworkService.swift in Sources */,
 				21BAF9C32C398D9C00EB3D8F /* StartViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
